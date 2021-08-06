@@ -24,8 +24,6 @@
     <link rel="stylesheet" href="../../../assets/css/Team-Boxed.css">
     <link rel="stylesheet" href="https://s.pageclip.co/v1/pageclip.css" media="screen">
 
-</head>
-
 <body style="background: white;"><a href="../../../index.html" style="color: rgb(34,34,34);">
         <h1 class="display-1 text-center">G O R B A C H E V</h1>
     </a>
@@ -66,11 +64,9 @@
                 <p class="lead" style="font-size: 16px;font-style: italic;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec lobortis mollis laoreet. Aliquam a congue turpis. Aliquam cursus venenatis risus a volutpat.&nbsp;<a href="#" style="color: rgb(33,37,41);font-style: italic;">Alexander Bulbashenko</a></p>
                 <p class="lead text-center" style="font-size: 20px;margin-top: 50px;margin-bottom: 20px;">Состав: 100% cotton</p>
                 <h1 class="display-6 text-center">Оформить заказ</h1>
-                <form class="text-center justify-content-xxl-center align-items-xxl-center pageclip-form" action="https://send.pageclip.co/n22sFiIr77abTvlqJ4B9aJb95ixv3L6H/Gorbachev" method="post" style="margin-left: 10px;margin-right: 10px;">
-                    <div>
-                        <p class="lead text-center">Выберите размер:</p>
-                        <div class="btn-group btn-group-sm mx-auto btn-group-toggle" role="group" style="margin-bottom: 20px;" data-toggle="buttons"><button class="btn btn-outline-dark border rounded-circle shadow-sm d-block" data-bss-hover-animate="pulse" type="button" style="margin-right: 15px;font-weight: bold;width: 45px;height: 45px;">XS</button><button class="btn btn-outline-dark border rounded-circle shadow-sm d-block" data-bss-hover-animate="pulse" type="button" style="margin-right: 15px;font-weight: bold;width: 45px;height: 45px;">S</button><button class="btn btn-outline-dark border rounded-circle shadow-sm d-block" data-bss-hover-animate="pulse" type="button" style="margin-right: 15px;font-weight: bold;width: 45px;height: 45px;">M</button><button class="btn btn-outline-dark border rounded-circle shadow-sm d-block" data-bss-hover-animate="pulse" type="button" style="margin-right: 15px;font-weight: bold;width: 45px;height: 45px;">L</button><button class="btn btn-outline-dark border rounded-circle shadow-sm d-block" data-bss-hover-animate="pulse" type="button" style="margin-right: 15px;font-weight: bold;width: 45px;height: 45px;">XL</button></div>
-                    </div><input class="border rounded-pill form-control" type="text" name="name" placeholder="Ваше имя" style="margin-bottom: 20px;"><input class="border rounded-pill form-control" type="email" name="Email" placeholder="E-Mail" style="margin-bottom: 20px;"><input class="border rounded-pill form-control" type="tel" name="phone" placeholder="Номер телефона" style="margin-bottom: 20px;"><button class="btn btn-dark border rounded-pill shadow pageclip-form__submit" data-bss-hover-animate="pulse" type="submit" style="width: 100%;"><span>Оформить заказ</span></button>
+                <form class="text-center justify-content-xxl-center align-items-xxl-center pageclip-form" action="https://send.pageclip.co/n22sFiIr77abTvlqJ4B9aJb95ixv3L6H/Gorbachev" method="post" style="margin-left: 10px;margin-right: 10px;"><input class="form-control" type="hidden" id="product-size" name="Size" value="Unrecord">
+                    <p class="lead text-center">Выберите размер:</p>
+                    <div class="btn-group btn-group-sm mx-auto btn-group-toggle" role="group" style="margin-bottom: 20px;" data-toggle="buttons"><button class="btn btn-outline-dark border rounded-circle shadow-sm d-block" data-bss-hover-animate="pulse" type="button" style="margin-right: 15px;font-weight: bold;width: 45px;height: 45px;" onclick="document.getElementById(&#39;product-size&#39;).value = &#39;XS&#39;;">XS</button><button class="btn btn-outline-dark border rounded-circle shadow-sm d-block" data-bss-hover-animate="pulse" type="button" style="margin-right: 15px;font-weight: bold;width: 45px;height: 45px;" onclick="document.getElementById(&#39;product-size&#39;).value = &#39;S&quot;;">S</button><button class="btn btn-outline-dark border rounded-circle shadow-sm d-block" data-bss-hover-animate="pulse" type="button" style="margin-right: 15px;font-weight: bold;width: 45px;height: 45px;" onclick="document.getElementById(&#39;product-size&#39;).value = &#39;M&#39;;">M</button><button class="btn btn-outline-dark border rounded-circle shadow-sm d-block" data-bss-hover-animate="pulse" type="button" style="margin-right: 15px;font-weight: bold;width: 45px;height: 45px;" onclick="document.getElementById(&#39;product-size&#39;).value = &#39;L&#39;;">L</button><button class="btn btn-outline-dark border rounded-circle shadow-sm d-block" data-bss-hover-animate="pulse" type="button" style="margin-right: 15px;font-weight: bold;width: 45px;height: 45px;" onclick="document.getElementById(&#39;product-size&#39;).value = &#39;XL&#39;;">XL</button></div><input class="border rounded-pill form-control" type="text" name="Name" placeholder="Ваше имя" style="margin-bottom: 20px;"><input class="border rounded-pill form-control" type="email" style="margin-bottom: 20px;" placeholder="E-Mail" name="email"><input class="border rounded-pill form-control" type="tel" style="margin-bottom: 20px;" placeholder="Номер телефона" name="Phone"><button class="btn btn-dark border rounded-pill shadow pageclip-form__submit" data-bss-hover-animate="pulse" type="submit" style="width: 100%;"><span>Оформить заказ</span></button>
                 </form>
             </div>
         </div>
@@ -107,14 +103,15 @@
                 </div>
             </div>
         </div>
-    </footer><script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
-
+    </footer>
+    <script src="../../../assets/js/jquery.min.js"></script>
     <script src="../../../assets/bootstrap/js/bootstrap.min.js"></script>
     <script src="../../../assets/js/bs-init.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="../../../assets/js/Customizable-Carousel-swipe-enabled.js"></script>
+    <script src="../../../assets/js/product-size.js"></script>
     <script src="../../../assets/js/Responsive-News-Card-Slider.js"></script>
-    <script src="../../../assets/js/Swiper-Slider-Card-For-Blog-Or-Product.js"></script>
+    <script src="https://s.pageclip.co/v1/pageclip.js" charset="utf-8"></script>
 </body>
 
 </html>

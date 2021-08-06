@@ -10,3 +10,7 @@
   font-family: Futura,sans-serif;
 }
 
+.active-size {
+  background-color: green !important;
+}
+
