@@ -92,3 +92,7 @@ a {
   transition: opacity 0.3s ease-in-out;
 }
 
+#quote:hover {
+  text-decoration: underline;
+}
+
