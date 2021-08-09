@@ -72,3 +72,7 @@ a:hover {
   opacity: 0;
 }
 
+#font-news:hover {
+  cursor: pointer;
+}
+
