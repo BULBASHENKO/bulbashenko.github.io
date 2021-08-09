@@ -68,3 +68,7 @@ a:hover {
   color: var(--bs-dark);
 }
 
+#modal-inidc {
+  opacity: 0;
+}
+
