@@ -1,16 +1,13 @@
-.carousel-control-prev-icon {
+a {
+  text-decoration: none;
+  color: var(--bs-dark);
+}
+
+.carousel-control-prev {
   filter: invert(100%);
 }
 
-.carousel-control-next-icon {
+.carousel-control-next {
   filter: invert(100%);
-}
-
-.product-size {
-  font-family: Futura,sans-serif;
-}
-
-.active-size {
-  background-color: green !important;
 }
 
