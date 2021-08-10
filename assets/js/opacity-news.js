@@ -1,0 +1,11 @@
+$(document).ready(function(){
+$('.news-overlay').each(function(){
+      $(this).animate({opacity:'0'},1);
+      $(this).mouseover(function(){
+          $(this).stop().animate({opacity:'1.0'},600);
+      });
+      $(this).mouseout(function(){
+          $(this).stop().animate({opacity:'0'},300);
+      });
+});
+});

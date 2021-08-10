@@ -76,3 +76,22 @@ a:hover {
   cursor: pointer;
 }
 
+#news-indic {
+  filter: invert(100%);
+}
+
+.news-overlay {
+  opacity: 0;
+}
+
+#index-news {
+  border: 1px solid rgba(222,226,230, 1);
+  border-radius: 7px;
+  max-height: 876px;
+}
+
+#carousel-2 {
+  height: auto;
+  overflow: hidden;
+}
+
