@@ -1,24 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
     <url>
-        <loc>/categories/hoodies/goods/black.html</loc>
+        <loc>https://gorbachev.com/categories/hoodies/goods/black.html</loc>
     </url>
     <url>
-        <loc>/categories/hoodies/hoodies.html</loc>
+        <loc>https://gorbachev.com/categories/hoodies/hoodies.html</loc>
     </url>
     <url>
-        <loc>/categories/tshirts/goods/black.html</loc>
+        <loc>https://gorbachev.com/categories/tshirts/goods/black.html</loc>
     </url>
     <url>
-        <loc>/categories/tshirts/goods/black_classic.html</loc>
+        <loc>https://gorbachev.com/categories/tshirts/goods/black_classic.html</loc>
     </url>
     <url>
-        <loc>/categories/tshirts/tshirts.html</loc>
+        <loc>https://gorbachev.com/categories/tshirts/tshirts.html</loc>
     </url>
     <url>
-        <loc>/404.html</loc>
+        <loc>https://gorbachev.com/404.html</loc>
     </url>
     <url>
-        <loc>/index.html</loc>
+        <loc>https://gorbachev.com/index.html</loc>
     </url>
 </urlset>
